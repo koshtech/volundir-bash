@@ -1,6 +1,6 @@
 {
   "name": "volundir-bash",
   "version": "0.0.1",
-  "description": "Bash Core System of [:Volundir][:Apps].",
+  "description": "Bash Core System of [:Volundir][:PWA].",
   "dependencies": ["volundir"]
 }
