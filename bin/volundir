@@ -43,9 +43,9 @@ if [[ "$VOLUNDIR_DEBUG" == "true" ]]; then
   echo "VOLUNDIR_DEBUG : $VOLUNDIR_DEBUG"
   echo "SHELL_ROOT : $SHELL_ROOT"
   echo "RUBY_ROOT : $RUBY_ROOT"
-  echo "JS_ROOT : JS_ROOT$"
-  echo "ASSETS_ROOT : ASSETS_ROOT$"
+  echo "JS_ROOT : $JS_ROOT"
+  echo "ASSETS_ROOT : $ASSETS_ROOT"
   echo "APPS_ROOT : $APPS_ROOT"
 fi
 
-"${RUBY_ROOT}/bin/volundir_ruby.rb" $@
+"${KOSHTECH_HOME}/bin/volundir_ruby.rb" $@

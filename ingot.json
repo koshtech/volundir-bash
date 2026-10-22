@@ -2,5 +2,20 @@
   "name": "volundir-bash",
   "version": "0.0.1",
   "description": "Bash Core System of [:Volundir][:PWA].",
-  "dependencies": ["volundir"]
+  "dependencies": ["volundir"],
+  "install": {
+    "pre_install": {
+      "directories": []
+    },
+    "post_install": {
+      "copy": [],
+      "symlinks": [
+        {
+          "source": "bin/volundir",
+          "destination": "bin/volundir"
+        }
+      ],
+      "permissions": ["bin/volundir"]
+    }
+  }
 }
